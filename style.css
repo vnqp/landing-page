@@ -20,8 +20,10 @@ a:hover {
 .page-top {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    padding: 0 50px 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 100px;
+    gap: 50px;
     background-color: #1F2937;
     color: white;
 }
@@ -31,13 +33,16 @@ a:hover {
     font-size: 24px;
     justify-content: space-between;
     align-items: center;
-    width: auto;
+    width: 950px;
 }
 
 .header-links {
     font-size: 18px;
 }
 
+.header-logo {
+
+}
 
 .hero {
     display: flex;
@@ -55,7 +60,7 @@ a:hover {
 
 .hero-photo {
     width: 500px;
-    height: 250px;
+    height: 300px;
 }
 
 .hero-left {
