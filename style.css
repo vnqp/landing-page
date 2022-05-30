@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    opacity: 60%;
+}
+
+.page-top {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 0 50px 50px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    color: white;
+    flex-shrink: 0;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.hero-photo {
+    width: 500px;
+    height: 250px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+.hero-button a {
+    display: block;
+    padding: 8px 20px;
+    margin: 0;
+}
+
+.hero-txt {
+    margin: 0px;
+}
+
+/* Information Sector */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-pictures {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.info-picture{
+    background-color: #1F2937;
+    height: 200px;
+    width: 200px;
+    border: 2px solid lightblue;
+}
+
+.info-txt {
+    font-size: 36px;
+    font-weight: 800;
+}
