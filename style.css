@@ -1,6 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
 }
 
 ul {
@@ -28,12 +31,13 @@ a:hover {
     color: white;
 }
 
+/* -----HEADER SECTOR----- */
 .header {
     display: flex;
     font-size: 24px;
     justify-content: space-between;
     align-items: center;
-    width: 950px;
+    width: 1250px;
 }
 
 .header-links {
@@ -44,12 +48,14 @@ a:hover {
 
 }
 
+/* -----HERO SECTOR----- */
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
     color: white;
     flex-shrink: 0;
+    width: 1250px;
 }
 
 .hero-main {
@@ -66,14 +72,14 @@ a:hover {
 .hero-left {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     flex-shrink: 0;
 }
 
 .hero-button {
     background-color: #3882f6;
     border: 0;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 0;
     padding: 0;
     width: 100px;
@@ -89,17 +95,27 @@ a:hover {
     margin: 0px;
 }
 
-/* Information Sector */
+/* -----INFO SECTOR----- */
 
 .information {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.info-block {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
 .info-pictures {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 25px;
 }
@@ -109,9 +125,92 @@ a:hover {
     height: 200px;
     width: 200px;
     border: 2px solid lightblue;
+    border-radius: 10%;
 }
 
 .info-txt {
     font-size: 36px;
     font-weight: 800;
+}
+
+.info-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -----QUOTE SECTOR----- */
+
+.quote-sector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-txt {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+
+}
+
+.quote-name {
+    align-self: flex-end;
+}
+
+
+/* -----SIGN-UP SECTOR----- */
+
+.signup-sector {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 100px;
+    gap: 100px;
+}
+
+.signup-box button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.signup-text {
+    width: 600px;
+}
+
+.signup-text h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-sector {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    background-color: #1F2937;
 }
