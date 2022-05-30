@@ -1,9 +1,15 @@
 body {
+    background-color: #1d1a05;
     padding: 0;
     margin: 0;
+}
+
+.body2 {
     display: flex;
-    flex-direction: column;
     gap: 75px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
@@ -17,7 +23,7 @@ a {
 
 
 a:hover {
-    opacity: 60%;
+    opacity: 75%;
 }
 
 .page-top {
@@ -25,10 +31,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 50px 100px;
+    padding: 0 100px 100px;
     gap: 50px;
-    background-color: #1F2937;
-    color: white;
+    background-color: #360d1b;
+    color: #f9e900;
 }
 
 /* -----HEADER SECTOR----- */
@@ -44,7 +50,23 @@ a:hover {
     font-size: 18px;
 }
 
-.header-logo {
+.header-links ul {
+    display: flex;
+    gap: 50px;
+}
+
+.header-links a {
+    font-family: monospace;
+    color: #f9e900;
+}
+
+.header-links a:hover {
+    color: cyan;
+}
+
+.logo p {
+    font-family: monospace;
+    font-weight: 700;
 
 }
 
@@ -53,7 +75,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    color: white;
+    color: #f9e900;
     flex-shrink: 0;
     width: 1250px;
 }
@@ -65,19 +87,22 @@ a:hover {
 }
 
 .hero-photo {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
     flex-shrink: 0;
 }
 
 .hero-button {
-    background-color: #3882f6;
+    background-color: #c33149;
     border: 0;
     border-radius: 5px;
     margin: 0;
@@ -86,6 +111,7 @@ a:hover {
 }
 
 .hero-button a {
+    color: white;
     display: block;
     padding: 8px 20px;
     margin: 0;
@@ -95,14 +121,21 @@ a:hover {
     margin: 0px;
 }
 
+.hero-main {
+    flex: 1;
+    margin: auto;
+}
+
 /* -----INFO SECTOR----- */
 
 .information {
+    color: #fff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 
 .info-block {
@@ -116,18 +149,52 @@ a:hover {
 .info-pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 25px;
+    justify-content: center;
+    gap: 50px;
 }
 
-.info-picture{
+.info-pictures p {
+    width: 200px;
+    text-align: center;
+}
+
+.info-picture {
     background-color: #1F2937;
     height: 200px;
     width: 200px;
-    border: 2px solid lightblue;
-    border-radius: 10%;
+    /* border: 2px solid lightblue; */
+    border-radius: 10px;
 }
 
+.info-block-tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.info-pictures-tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-picture-tr {
+    background-color: #1F2937;
+    flex: auto;
+    height: 300px;
+    /* border: 2px solid lightblue; */
+}
+
+.info-picture-tr img {
+    display: inline;
+    height: 100%;
+    width: 100%;
+}
+
+.info-picture img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
 .info-txt {
     font-size: 36px;
     font-weight: 800;
@@ -146,20 +213,23 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: 300px;
-    background-color: #e5e7eb;
+
+    background-color: #ebd4cb;
 }
+
 
 .quote{
     display: flex;
     width: 1000px;
+    justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .quote-txt {
     display: flex;
-    flex-wrap: wrap;
-    font-size: 36px;
+    gap: 50px;
+    font-size: 30px;
 
 }
 
@@ -171,7 +241,7 @@ a:hover {
 /* -----SIGN-UP SECTOR----- */
 
 .signup-sector {
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
 
@@ -181,17 +251,29 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #c33149;
+    color: #360d1b;
+    border-radius: 5px;
     width: 1000px;
     height: 100px;
     gap: 100px;
 }
 
 .signup-box button {
-    background-color: transparent;
-    border: 2px solid white;
+    background-color: #ffe9f3;
+    border: 0;
     border-radius: 5px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
 }
+.signup-box a {
+    display: block;
+    color: black;
+    margin: 0;
+    padding: 8px 20px;
+}
+
 .signup-text {
     width: 600px;
 }
@@ -212,5 +294,5 @@ a:hover {
     justify-content: center;
     align-items: flex-start;
     color: white;
-    background-color: #1F2937;
+    background-color: #1d1a05
 }
