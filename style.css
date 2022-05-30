@@ -70,6 +70,10 @@ a:hover {
 
 }
 
+.logo a{
+    color: #f9e900;
+}
+
 /* -----HERO SECTOR----- */
 .hero {
     display: flex;
@@ -173,17 +177,22 @@ a:hover {
 }
 .info-pictures-tr {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .info-picture-tr {
     background-color: #1F2937;
-    flex: auto;
+    flex: 1;
     height: 300px;
     /* border: 2px solid lightblue; */
 }
 
+.info-square-tr{
+    flex: auto
+}
+
 .info-picture-tr img {
+    flex: 1;
     display: inline;
     height: 100%;
     width: 100%;
