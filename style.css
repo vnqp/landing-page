@@ -204,6 +204,12 @@ a:hover {
     width: 100%;
     display: block;
 }
+
+.info-btn:hover img {
+    height: 105%;
+    width: 105%;
+}
+
 .info-txt {
     font-size: 36px;
     font-weight: 800;
