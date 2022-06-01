@@ -205,10 +205,15 @@ a:hover {
     display: block;
 }
 
+.info-img:hover {
+    box-shadow: 5px 5px 3px #7c1e3d;
+}
+
 .info-btn:hover img {
     height: 105%;
     width: 105%;
 }
+
 
 .info-txt {
     font-size: 36px;
