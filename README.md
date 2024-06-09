@@ -1,6 +1,6 @@
 # TSCLOPEDIA
 
-Live on: https://viniqp.github.io/landing-page/
+Live on: https://vnqp.github.io/landing-page/
 
 SCREENSHOT
 
